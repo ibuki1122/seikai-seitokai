@@ -1,1 +1,0 @@
-# seikai-seitokai

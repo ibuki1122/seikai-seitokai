@@ -442,7 +442,7 @@
 
     /* header */
     .accordion-header {
-      background: linear-gradient(135deg, #0078ff 0%, #0056b3 100%);
+      background: #0078ff;
       color: white;
       padding: 0;
       cursor: pointer;
@@ -532,7 +532,7 @@
     /* 校則*/
     .rules-accordion      .accordion-header  { background: linear-gradient(135deg, #C2D455, #D2E657) !important; }
     /* 回答 */
-    .answer-accordion     .accordion-header  { background: linear-gradient(135deg, #27ae60, #a8e063) !important; }
+    /*.answer-accordion     .accordion-header  { background: linear-gradient(135deg, #27ae60, #a8e063) !important; } */
 
     .radio-accordion     .accordion-header  { background: linear-gradient(#5D3983) !important; }
     /* ===== OPINION BOX BUTTON ===== */
@@ -991,5 +991,9 @@
       border: 1px solid rgba(255,255,255,0.08);
       border-radius: 14px;
       padding: 24px 16px;
+    }
+      /* 意見箱の回答 — ヘッダーを単色に */
+    .answer-accordion .accordion-header {
+      background: #27ae60;
     }
 
